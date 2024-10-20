@@ -27,7 +27,7 @@ function initengahan(){
   vketik1=kalimat.innerHTML;kalimat.innerHTML = "";
   function mulaiketik1(){
   new TypeIt("#kalimat", {
-  strings: ["" + vketik1], startDelay: 400, speed: 20, cursor: false, deleteSpeed: 20, breakLines: false, waitUntilVisible: true, lifelike: true,
+  strings: ["" + vketik1], startDelay: 400, speed: 20, cursor: false, deleteSpeed: 20, breakLines: false, waitUntilVisible: true, lifelike: true, 
   afterComplete: function(){
     aktiopsL();
   },}).go();

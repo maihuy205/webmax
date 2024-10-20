@@ -22,7 +22,7 @@ function initengahan(){
 
   function tombol(){wallpaper.style="transform: scale(1);";Tombol.style="opacity:1;transform: scale(1);";fungsi=1}
   document.getElementById("By").onclick = function() {if(fungsi==1){pertanyaan();} if(fungsi==2){menuju();}}
-  async function menuju(){await swals.fire('Uci!', 'Nhớ liên hệ anhh nhaaa bấy biii , anhh có này tặng choo bbi nàa!', 'success');window.location = "https://cuongnobro.github.io/Baby/";}
+  async function menuju(){await swals.fire('Uci!', 'nhớ phản hồi nhe=)), giờ Huy tặng Kim Khánh cái này nè :3', 'success');window.location = "https://cuongnobro.github.io/Baby/";}
   
   vketik1=kalimat.innerHTML;kalimat.innerHTML = "";
   function mulaiketik1(){
